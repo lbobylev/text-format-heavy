@@ -56,6 +56,7 @@ tests:
     main: Spec.hs
     dependencies:
       - base >= 4.8 && < 5
+      - bytestring
       - time >= 1.5
       - text-format-heavy
       - containers
